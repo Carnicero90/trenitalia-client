@@ -1,0 +1,22 @@
+{
+    "name": "calavera/trenitalia-client",
+    "description": "trenitalia api client",
+    "type": "library",
+    "require": {
+        "php": "^7.2 || ^8.0",
+        "psr/http-message": "^1.0 || ^2.0",
+        "psr/http-client": "^1.0"
+    },
+    "license": "GPL-3.0-only",
+    "autoload": {
+        "psr-4": {
+            "Calavera\\TrenitaliaClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Filippo Montani"
+        }
+    ],
+    "minimum-stability": "dev"
+}
